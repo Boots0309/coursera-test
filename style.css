@@ -11,14 +11,18 @@ header {
 }
 #chicken {
     background-color: pink;
+    font-size: 20px;
+
 }
 
 #beef {
     background-color: red;
     color: white;
+    font-size: 20px;
 }
 #sushi {
     background-color: yellowgreen;
+    font-size: 20px;
 }
 .desc {
     background-color: grey;
