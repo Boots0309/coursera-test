@@ -9,3 +9,17 @@ header {
     text-align: center;
     font-size: 28px;
 }
+#chicken {
+    background-color: pink;
+}
+
+#beef {
+    background-color: red;
+    color: white;
+}
+#sushi {
+    background-color: yellowgreen;
+}
+.desc {
+    background-color: grey;
+}
