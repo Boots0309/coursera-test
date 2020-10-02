@@ -14,27 +14,32 @@ header {
 #box1 {
     background-color: pink;
     font-size: 20px;
+    text-align: right;
 }
 
 #box2 {
     background-color: red;
     color: white;
     font-size: 20px;
+    text-align: right;
 }
 
 #box3 {
     background-color: yellowgreen;
-    font-size: 20px;   
+    font-size: 20px; 
+    text-align: right;  
 }
 
 .desc {
     background-color: lightslategray;
-    font-size: 16px
+    font-size: 16px;
+    text-align: left;
 }
 
 section {
-    border: 1px solid black;
+   /* border: 1px solid black;*/
     margin:auto;
     width: 33.33%;
     float: left;
+    padding: 10px;
 }
