@@ -30,4 +30,5 @@ h1 {
 .desc {
   background-color: lightslategray;
   font-size: 16px;
+  float: left;
 }
