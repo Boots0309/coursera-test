@@ -15,30 +15,29 @@ h1 {
 #menu1 {
   position: relative;
   float: left;
-  width: 23.33%;
-  margin: 10px;
+  width: 33.33%;
 }
 
 #menu2 {
   position: relative;
   float: left;
-  width: 23.33%;
-  margin: 10px;
+  width: 33.33%;
 }
 
 #menu3 {
   position: relative;
   float: left;
-  width: 23.33%;
-  margin: 10px;
+  width: 33.33%;
 }
 
 #title1 {
   position: absolute;
   top: 0;
   right: 0;
-  background-color: green;
-  width: 30%;
+  border: 1px solid black;
+  background-color: pink;
+  width: 150px;
+  padding: 10px;
   text-align: center;
 }
 
@@ -46,25 +45,43 @@ h1 {
   position: absolute;
   top: 0;
   right: 0;
+  border: 1px solid black;
   background-color: gray;
-  width: 30%;
+  width: 150px;
+  padding: 10px;
+  text-align: center;
+}
+
+#title3 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 1px solid black;
+  background-color: lightgreen;
+  width: 150px;
+  padding: 10px;
   text-align: center;
 }
 
 #box1 {
-  background-color: pink;
+  background-color: lightgray;
   position: relative;
-  padding-top: 50px;
+  padding: 50px 0 0 30px;
 }
 
 #box2 {
   background-color: red;
   color: white;
   position: relative;
-  padding-top: 50px;
+  padding: 50px 0 0 30px;
 }
 
 #box3 {
-  background-color: yellowgreen;
-  position: absolute;
+  background-color: lightgray;
+  position: relative;
+  padding: 50px 0 0 30px;
 }
+
+/*ul {
+  list-style: none;
+}*/
