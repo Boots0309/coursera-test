@@ -9,28 +9,28 @@ h1 {
   text-align: center;
   padding: 10px;
   margin: 30px;
-  /*font-size: 28px;*/
 }
 
-.menu {
-  position: relative;
-  width: 33.33%;
-  padding: 10px;
-}
-
-/*#menu2 {            //changed to class selector
+#menu1 {
   position: relative;
   float: left;
   width: 33.33%;
   padding: 10px;
 }
 
-#menu3 {              //changed to class selector
-  position: relative; 
+#menu2 {
+  position: relative;
   float: left;
   width: 33.33%;
   padding: 10px;
-}*/
+}
+
+#menu3 {
+  position: relative;
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
 
 #title1 {
   position: absolute;
@@ -87,25 +87,43 @@ h1 {
 }
 
 @media (min-width: 992px) {
-  .menu {
+  #menu1 {
+    float: left;
+  }
+
+  #menu2 {
+    float: left;
+  }
+
+  #menu3 {
     float: left;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .menu {
-    float: left;
+  #menu1 {
     width: 50%;
   }
 
-  #box2 {
-    clear: right;
+  #menu2 {
+    width: 50%;
+  }
+
+  #menu3 {
     width: 100%;
   }
 }
 
 @media (max-width: 767px) {
-  .menu {
+  #menu1 {
+    width: 100%;
+  }
+
+  #menu2 {
+    width: 100%;
+  }
+
+  #menu3 {
     width: 100%;
   }
 }
